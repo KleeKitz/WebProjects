@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <title>Pixel Eater</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <style>
+    .translated {
+      background-color: lightslategrey;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <div class="container" style="height: 200px">
+      <div class="row">
+        <div class="col">
+          <div class="container">
+            Total Cells on Page:
+            <div id="totalCellsOnPage">
+            </div>
+          </div>
+          <div class="container">
+            Total Cells Translated On Page:
+            <div id="totalCellsTranslatedOnPage">
+            </div>
+          </div>
+          <div class="container">
+            Total Cells Translated:
+            <div id="totalCellsTranslated">
+            </div>
+          </div>
+          <div class="container">
+            Cell Bits:
+            <div id="cellBitsCollected">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div id="upgradeButtons" class="row pd-1 gx-5 g-1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      Charging a encoding... - [
+      <span id="encodingBar"></span>
+      ]
+    </div>
+    <div id="gridArea" class="container-sm text-center px-4">
+
+    </div>
+  </div>
+  <div class="container-fluid" style="padding-left: 10em; padding-right: 10em;">
+    <div id="wordArea" class="d-inline-flex flex-wrap align-content-start">
+
+    </div>
+  </div>
+</body>
+
+<script src="bundle.js"></script>
+
+</html>
